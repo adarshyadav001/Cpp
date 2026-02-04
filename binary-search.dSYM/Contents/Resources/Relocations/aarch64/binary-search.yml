@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/adarshyadav/Desktop/Cpp/binary-search'
+relocations:     []
+...
