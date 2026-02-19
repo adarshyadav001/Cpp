@@ -12,7 +12,7 @@ int main()
     //     {
     //         cout<<vv[i][j]<<" ";
     //         cout<<endl;
-    //     }
+    //     }d 
     // }
     // pair<int,int>p;
     // p = {10,200};
