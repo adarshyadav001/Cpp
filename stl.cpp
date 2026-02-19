@@ -14,10 +14,24 @@ int main()
     //         cout<<endl;
     //     }
     // }
-    pair<int,int>p;
-    p = {10,200};
-    cout<<p.first;
-    cout<<",";
-    cout<<p.second;
+    // pair<int,int>p;
+    // p = {10,200};
+    // cout<<p.first;
+    // cout<<",";
+    // cout<<p.second;
+vector<pair<int,string>>vp;
+vp.push_back({10,"XYZ"});
+vp.push_back({20,"PQR"});
+vp.push_back({30,"ABC"});
+vp.push_back({40,"STU"});
+vp.push_back({50,"DEF"});
 
+for (int i=0;i<vp.size();i++)
+{
+    pair<int,string>p;
+    p=vp[i];
+    cout<<p.first<<","<<p.second;
+    cout<<"\n";
+   
+}
 }
